@@ -85,8 +85,10 @@ button {
 .information {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    gap: 30px;
+    
 }
 
 .pic_container > img {
@@ -115,7 +117,7 @@ h2 {
     justify-content: center;
     align-items: center;
     background-color: #E5E7EB;
-    min-height: 250px;
+    min-height: 220px;
 }
 
 .quote {
@@ -136,6 +138,7 @@ h2 {
     align-items: center;
     justify-content: center;
     min-height: 200px;
+    
 }
 
 .sign_up {
@@ -147,10 +150,16 @@ h2 {
     background-color: #3882F6;
     flex-wrap: wrap;
     color: #F9FAF8;
+    border-radius: 10px;
     
 }
 
 footer {
     display: flex;
     margin-top: auto;
+    justify-content: center;
+    background-color: #1F2937;
+    min-height: 70px;
+    align-items: center;
+    color: #F9FAF8;
 }
